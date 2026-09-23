@@ -15,6 +15,6 @@ def give_general_information_of_system():
 
     return json.loads(result.stdout)
 
-if __name__=="__main__":
-    result = give_general_information_of_system()
-    pprint(result)
+# if __name__=="__main__":
+#     result = give_general_information_of_system()
+#     pprint(result)
