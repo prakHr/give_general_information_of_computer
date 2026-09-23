@@ -17,7 +17,7 @@ def give_general_information_of_system(do_you_want_to_check_the_installation_is_
 
     return json.loads(result.stdout)
 
-# if __name__=="__main__":
-#     do_you_want_to_check_the_installation_is_proper = True
-#     result = give_general_information_of_system(do_you_want_to_check_the_installation_is_proper)
-#     pprint(result)
+if __name__=="__main__":
+    do_you_want_to_check_the_installation_is_proper = True
+    result = give_general_information_of_system(do_you_want_to_check_the_installation_is_proper)
+    pprint(result)
